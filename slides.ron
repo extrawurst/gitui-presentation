@@ -1,0 +1,61 @@
+(
+    files:[
+        // preamble
+        Open("preamble/pp.pdf"),
+        Image("preamble/logo.png"),
+        Markdown("preamble/who-am-i.md"),
+        Markdown("preamble/gameroasters.md"),
+        Image("preamble/stack4.png"),
+        Image("preamble/tr.jpg"),
+
+        // intro
+        Markdown("intro/gitui-intro.md"),
+        Image("intro/gitui.png"),
+        Markdown("intro/gitui-what.md"),
+        GifAnimation("intro/why.gif"),
+
+        // compare
+        Markdown("compare/alternatives.md"),
+        Markdown("compare/alternatives-tig.md"),
+        Markdown("compare/comparison-00.md"),
+        Markdown("compare/comparison-01.md"),
+        Markdown("compare/comparison-02.md"),
+        Markdown("compare/comparison-03.md"),
+        GifAnimation("compare/celebrate.gif"),
+
+        // why-rust
+        Markdown("rust/why-rust-00.md"),
+        Markdown("rust/why-rust-01.md"),
+        Markdown("rust/why-rust-02.md"),
+
+        Markdown("rust/rust.md"),
+
+        // 1. Diagnostics
+        Markdown("rust/diagnostics.md"),
+        Code("rust/pedantic.rs"),
+        Image("rust/errors.png"),
+
+        // 2. concurrency
+        Markdown("rust/concurrency.md"),
+        Code("rust/concurrency.rs"),
+
+        // 3. community
+        Markdown("rust/community.md"),
+
+        // dependencies
+        Markdown("deps/gitui-deps-00.md"),
+        Markdown("deps/gitui-deps-01.md"),
+        Code("deps/tui-rs.rs"),
+        Code("deps/rayon.rs"),
+        Code("deps/crossbeam.rs"),
+
+        // whishlist
+        Markdown("whishes/whishlist-00.md"),
+        Markdown("whishes/whishlist-01.md"),
+        Markdown("whishes/meta.md"),
+        Code("whishes/reflection.rs"),
+        Code("whishes/accessors.rs"),
+
+        Image("thanks.png"),
+    ]
+)
